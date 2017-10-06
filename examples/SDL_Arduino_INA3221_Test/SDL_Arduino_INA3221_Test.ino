@@ -23,7 +23,7 @@ SDL_Arduino_INA3221 ina3221;
 void setup(void) 
 {
     
-  Serial.begin(57600);
+  Serial.begin(115200);
   Serial.println("SDA_Arduino_INA3221_Test");
   
   Serial.println("Measuring voltage and current with ina3221 ...");
