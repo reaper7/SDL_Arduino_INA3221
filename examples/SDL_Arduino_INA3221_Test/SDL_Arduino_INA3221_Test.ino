@@ -48,7 +48,7 @@ void loop(void)
   Serial.print("LIPO_Battery Bus Voltage:   "); Serial.print(busvoltage1); Serial.println(" V");
   Serial.print("LIPO_Battery Shunt Voltage: "); Serial.print(shuntvoltage1); Serial.println(" mV");
   Serial.print("LIPO_Battery Load Voltage:  "); Serial.print(loadvoltage1); Serial.println(" V");
-  Serial.print("LIPO_Battery Current 1:       "); Serial.print(current_mA1); Serial.println(" mA");
+  Serial.print("LIPO_Battery Current 1:     "); Serial.print(current_mA1); Serial.println(" mA");
   Serial.println("");
 
   float shuntvoltage2 = 0;
